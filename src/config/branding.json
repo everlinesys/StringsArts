@@ -1,76 +1,74 @@
 {
   "default": {
-    "siteName": "ASP Financial Services",
-    "tagline": "Become a Strategic Mutual fund DIY Investor",
+    "siteName": "Anandh Unni Experiments",
+    "tagline": "Master Video Editing, Graphics & AI Visual Creation",
 
-    "primaryColor": "#2b6cb0",
-    "theme": "formalLight",
+    "primaryColor": "#0f172a",
+    "theme": "darkModern",
 
-    "logo": "/lexacademy-logo.png",
-    "students": "2K",
+    "logo": "/auelogo.jpg",
+    "students": "200",
 
     "colors": {
-      "primary": "#2b6cb0",
-      "accent": "white"
+      "primary": "#0f172a",
+      "accent": "#22c55e"
     },
 
     "hero": {
-      "title": "Become a Strategic Mutual fund DIY Investor.",
-      "subtitle": "The Asp Fin Academy welcomes you! We offer courses based on a variety of subjects including investing, personal finance, insurance and the stock market. Now choose a topic and start learning.",
-      "image": "/coursepic1.jpg",
+      "title": "Create Stunning Visuals with Editing, Graphics & AI",
+      "subtitle": "Learn video editing, motion graphics, and AI-powered design techniques to build content that stands out. From beginner to advanced workflows, everything you need is here.",
+      "image": "/hero.png",
 
-      "bunnyVideoId": "67deaca4-f378-4b66-adec-1d3330b0308d",
-      "poster": "/law-hero.png"
+      "bunnyVideoId": "replace-with-your-video-id",
+      "poster": "/hero-poster.jpg"
     },
 
     "preview": {
-      "badge": "Trusted Financial Training",
-      "title": "If they can do it, you can too.",
-      "highlight": "Become a smart do-it-yourself investor",
-      "description": "Our courses are designed to empower you with the knowledge and confidence to take control of your financial future. Whether you're a beginner or looking to deepen your understanding, our expert-led sessions and practical case-based learning will guide you every step of the way.",
+      "badge": "Creative Skill Academy",
+      "title": "If you can imagine it, you can create it.",
+      "highlight": "Master Editing, Graphics & AI Tools",
+      "description": "Our courses focus on real-world creative workflows — from editing cinematic videos to designing high-quality graphics and using AI tools to speed up your process. Learn by building actual projects, not just theory.",
 
-      "bunnyVideoId": "67deaca4-f378-4b66-adec-1d3330b0308d",
+      "bunnyVideoId": "replace-with-your-video-id",
+      "libraryId": "your-library-id",
+      "poster": "/preview-poster.jpg",
 
-      "libraryId": "594138",
-
-      "poster": "/law-hero.png",
-
-      "videoUrl": "https://youtu.be/8nOOE8ZAzqU?si=YyWEkz_gvDEUAK6E",
+      "videoUrl": "https://youtube.com",
 
       "perks": [
-        { "value": "PRACTICAL", "label": "Case-Based Learning" },
-        { "value": "EXPERT", "label": "Mentor-Led Sessions" }
+        { "value": "PROJECT", "label": "Real Project-Based Learning" },
+        { "value": "AI POWER", "label": "AI-Driven Creative Workflows" }
       ]
     },
 
     "reviews": [
       {
-        "name": "Neha George",
-        "role": "Working Professional",
+        "name": "Arjun Nair",
+        "role": "Content Creator",
         "rating": 5,
-        "text": "ASP helped me understand mutual funds clearly and build a disciplined investment plan with confidence."
+        "text": "I learned professional video editing and started creating content that actually stands out. The AI tools section is a game changer."
       },
       {
-        "name": "Rahul Krishnan",
-        "role": "Young Investor",
+        "name": "Fathima Shirin",
+        "role": "Freelance Designer",
         "rating": 5,
-        "text": "Simple, transparent, and practical advice — perfect for anyone starting their investment journey."
+        "text": "Finally understood how to combine design + editing + AI. My freelance income improved a lot after this."
       },
       {
-        "name": "Anandhu Sundaran",
-        "role": "Business Owner",
+        "name": "Nikhil Raj",
+        "role": "YouTuber",
         "rating": 4,
-        "text": "Great guidance on portfolio structuring and long-term wealth planning. Very reliable service."
+        "text": "Clear, practical, and straight to the point. Helped me level up my video quality and workflow."
       }
     ],
 
     "contact": {
-      "email": "aspfinacademy@gmail.com",
-      "phone": "+91 9400 690 911",
-      "whatsapp": "+91 9400 690 911",
-      "address": "Pathamanthitta, Kerala, India",
-      "supportName": "Academic Support Team",
-      "image": "/law-hero.png"
+      "email": "support@anandhunni.com",
+      "phone": "+91 90000 00000",
+      "whatsapp": "+91 90000 00000",
+      "address": "Kerala, India",
+      "supportName": "Creative Support Team",
+      "image": "/support-dark.jpg"
     }
   }
 }

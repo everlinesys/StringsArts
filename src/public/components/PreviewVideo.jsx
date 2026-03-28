@@ -15,27 +15,28 @@ export default function PreviewVideo() {
     brand.hero?.poster;
 
   return (
-    <section className="relative overflow-hidden bg-white">
+    <section className="relative overflow-hidden bg-white text-black">
       <div className="relative z-10 grid lg:grid-cols-2 gap-8 items-center">
 
         {/* 🎥 VIDEO — CLEAN */}
         <div className="w-full">
-          <VideoPlayer
+          {/* <VideoPlayer
             videoId={videoId}
             poster={poster}
-          />
+          /> */}
+          <img src="/hero.png" alt="" />
         </div>
 
         {/* 📝 TEXT — KEPT */}
         <div className="p-6 md:p-10 lg:p-14 space-y-6 md:space-y-8">
-          <h2 className={`text-xl md:text-5xl font-bold ${theme.text?.title || ""}`}>
+          <h2 className={`text-xl md:text-5xl font-bold `}>
             {preview.title}{" "}
             <span style={{ color: brand.colors.primary }}>
               {preview.highlight}
             </span>
           </h2>
 
-          <p className={`text-sm md:text-base ${theme.text?.body}`}>
+          <p className={`text-sm md:text-base `}>
             {preview.description}
           </p>
         </div>

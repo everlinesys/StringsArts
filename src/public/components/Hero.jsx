@@ -9,7 +9,7 @@ export default function Hero() {
       .split(" ")
       .filter(Boolean)
       .map(w => w[0].toUpperCase())
-      .slice(0, 2) || ["L", "M"];
+      .slice(0, 2) || ["A", "U"];
 
   const avatarLetters = [...initials, ...initials].slice(0, 4);
   const [open, setOpen] = useState(true);
@@ -68,7 +68,7 @@ export default function Hero() {
               />
               <span
                 className="relative inline-flex rounded-full h-2 w-2"
-                style={{ backgroundColor: brand.colors.primary }}
+                style={{ backgroundColor: brand.colors.accent }}
               />
             </span>
 
@@ -80,7 +80,7 @@ export default function Hero() {
           {/* Title */}
           <h1
             className="text-4xl md:text-5xl font-bold leading-[1.1] tracking-tight"
-            style={{ color: brand.colors.primary }}
+            // style={{ color: brand.colors.primary }}
           >
             {brand.hero?.title || "Welcome to eLearn"}
           </h1>
@@ -97,7 +97,7 @@ export default function Hero() {
             <a
               href="#courses"
               className={`group inline-flex items-center justify-center px-8 py-4 font-black text-sm tracking-wide transition-all duration-300 active:scale-95 ${brand.theme.button.primary} ${brand.theme.shape?.radius || ""}`}
-              style={{ color: brand.colors.accent }}
+              style={{ background: brand.colors.accent }}
             >
               <span className="flex items-center gap-2" >
                 Browse Courses
