@@ -6,7 +6,7 @@
     "primaryColor": "#f59e0b",
     "theme": "kinderPlayful",
 
-    "logo": "/kinder-logo.jpg",
+    "logo": "/kinderlogo.png",
     "students": "150+",
 
     "colors": {
@@ -75,12 +75,14 @@
       {
         "name": "Pooja Raj",
         "role": "Director",
-        "qualification": "BA, Montessori TTC, Learning Disability, Nutrition & Dietetics"
+        "qualification": "BA, Montessori TTC, Learning Disability, Nutrition & Dietetics",
+        "image": "/pooja.jpeg"
       },
       {
         "name": "Jesna Siyad",
         "role": "Principal",
-        "qualification": "M.A, B.Ed, B.Sc, Montessori TTC, Abacus Training"
+        "qualification": "M.A, B.Ed, B.Sc, Montessori TTC, Abacus Training",
+        "image": "/jesna.jpeg"
       }
     ],
 
@@ -106,9 +108,9 @@
     ],
 
     "contact": {
-      "email": "support@kinderprime.com",
-      "phone": "+91 90000 00000",
-      "whatsapp": "+91 90000 00000",
+      "email": "support@kinderprimeinternational.com",
+      "phone": "+91 8921268063",
+      "whatsapp": "+91 8921268063",
       "address": "Kerala, India",
       "supportName": "Kinder Prime Support Team",
       "image": "/support-light.jpg"

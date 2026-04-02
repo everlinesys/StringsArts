@@ -44,11 +44,11 @@ export default function Hero() {
           {/* Image top mobile only */}
           <div className="relative md:hidden md:block group ">
 
-            {brand.hero?.image ? (
+            {brand.logo ? (
               <img
-                src={brand.hero.image}
-                alt="Learning"
-                className={`relative z-10 ${brand.theme.shape?.radius || ""}  object-cover aspect-[4/3] w-full `}
+                src={brand.logo}
+                alt={brand.siteName}
+                className={`relative z-10 ${brand.theme.shape?.radius || ""}  object-cover aspect-[4/4] w-full `}
               />
             ) : (
               <div className={`relative z-10 ${brand.theme.layout.panel} aspect-[4/3] w-full flex items-center justify-center`}>
@@ -137,9 +137,9 @@ export default function Hero() {
 
           {brand.hero?.image ? (
             <img
-              src={brand.hero.image}
+              src={brand.logo}
               alt="Learning"
-              className={`relative z-10 ${brand.theme.shape?.radius || ""}  object-cover aspect-[4/3] w-full `}
+              className={`relative z-10 ${brand.theme.shape?.radius || ""}  object-cover aspect-[4/4] w-full `}
             />
           ) : (
             <div className={`relative z-10 ${brand.theme.layout.panel} aspect-[4/3] w-full flex items-center justify-center`}>
