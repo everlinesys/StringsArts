@@ -6,6 +6,7 @@ import Enroll from "../components/Enroll";
 import Courses from "./Courses";
 import FeaturedCoursesStrip from "../components/CourseStrip";
 import Team from "../components/Team";
+import MissionVision from "../components/MissionVision";
 
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
       <PreviewVideo />
 
       <FeaturedCoursesStrip />
+      <MissionVision />
       <Team />
       <Testimonials />
       <Enroll />
