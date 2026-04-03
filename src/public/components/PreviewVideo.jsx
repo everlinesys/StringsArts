@@ -11,8 +11,7 @@ export default function PreviewVideo() {
     brand.hero?.bunnyVideoId;
 
   const poster =
-    preview.poster ||
-    brand.hero?.poster;
+    brand.hero?.image;
 
   return (
     <section className="relative overflow-hidden bg-white text-black md:px-16">
@@ -20,11 +19,11 @@ export default function PreviewVideo() {
 
         {/* 🎥 VIDEO — CLEAN */}
         <div className="w-full">
-           <VideoPlayer
+           {/* <VideoPlayer
             videoId={videoId}
             poster={poster}
-          /> 
-          {/* <img src="/hero.png" alt="" /> */}
+          />  */}
+          <img src={poster} alt="" />
         </div>
 
         {/* 📝 TEXT — KEPT */}

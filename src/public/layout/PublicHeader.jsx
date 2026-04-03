@@ -16,7 +16,7 @@ export default function PublicHeader() {
         {/* Logo + Small Title */}
         <Link to="/" className="flex items-center gap-3">
           
-          {brand.logo ? (
+          {/* {brand.logo ? (
             <img
               src={brand.logo}
               alt={brand.siteName}
@@ -26,7 +26,7 @@ export default function PublicHeader() {
             <div className=" h-10 w-10 bg-gray-200 rounded-lg flex items-center justify-center text-sm font-bold">
               {brand.siteName?.charAt(0)}
             </div>
-          )}
+          )} */}
 
           {/* Small Title */}
           <span className={`text-sm font-semibold  text-white`}>

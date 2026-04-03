@@ -1,119 +1,114 @@
 {
   "default": {
-    "siteName": "Kinder Prime International",
-    "tagline": "Nurturing Young Minds Through Fun & Digital Learning",
+    "siteName": "Council for Mind and Behavioural Studies",
+    "tagline": "Advancing Psychology, Behavioural Science & Human Potential",
 
-    "primaryColor": "#f59e0b",
-    "theme": "kinderPlayful",
+    "primaryColor": "#1e3a8a",
+    "theme": "formalLight",
 
-    "logo": "/kinderlogo.png",
-    "students": "150+",
+    "logo": "/cmbs-logo.png",
+    "students": "500+",
 
     "colors": {
-      "primary": "#f59e0b",
-      "accent": "black"
+      "primary": "#1e3a8a",
+      "accent": "#ffff"
     },
 
     "hero": {
-      "title": "Online Preschool for Pre KG, LKG & UKG",
-      "subtitle": "Give your child a strong foundation with interactive online classes, creative activities, and expert guidance — all from the comfort of home.",
+      "title": "Empowering Minds Through Psychology & Behavioural Science",
+      "subtitle": "Enhance your understanding of human behaviour, emotional intelligence, and professional skills through expert-led programs and research-driven learning.",
       "image": "/hero.png",
 
-      "bunnyVideoId": "91302432-7053-465a-aebe-609335db2be3",
-      "poster": "/hero.png"
+      "bunnyVideoId": "",
+      "poster": "/hero.jpg"
     },
 
     "preview": {
-      "badge": "Early Learning Academy",
-      "title": "A joyful start to your child’s learning journey",
-      "highlight": "Interactive Online Preschool Experience",
-      "description": "Kinder Prime International offers structured and engaging online classes for Pre KG, LKG, and UKG students. Our program focuses on developing creativity, communication, and foundational skills through fun activities and guided learning.",
+      "badge": "Professional Council",
+      "title": "A platform for psychological learning & research",
+      "highlight": "Education • Research • Professional Excellence",
+      "description": "CMBS is dedicated to promoting education, research, and professional excellence in psychology and behavioural sciences. Our programs bridge the gap between academic knowledge and real-world application.",
 
-      "bunnyVideoId": "91302432-7053-465a-aebe-609335db2be3",
-      "libraryId": "your-library-id",
-      "poster": "/kinder-preview.jpg",
+      "bunnyVideoId": "",
+      "libraryId": "",
+      "poster": "/cmbs-preview.jpg",
 
-      "videoUrl": "https://youtube.com",
+      "videoUrl": "",
 
       "perks": [
-        { "value": "NO DONATION", "label": "No Hidden Charges" },
-        { "value": "FUN LEARNING", "label": "Creative Activity-Based Learning" }
+        { "value": "CERTIFIED", "label": "Industry-Relevant Programs" },
+        { "value": "RESEARCH", "label": "Practical & Evidence-Based Learning" }
       ]
     },
 
     "pricingInfo": {
-      "title": "Affordable Preschool Program",
+      "title": "Program Information",
       "items": [
-        "Course Fee: ₹17,000/year (including GST)",
-        "Offer Fee: ₹15,000/year (Early Booking)",
-        "Admission Fee: ₹2,000 to reserve seat",
-        "No Donation / Vehicle / Extra Charges",
-        "Books & Workbooks: Approx ₹2,000"
+        "Flexible course structures available",
+        "Certificate & Diploma programs offered",
+        "Affordable pricing based on program level",
+        "No hidden charges",
+        "Online & hybrid learning options"
       ]
     },
 
     "schedule": {
-      "title": "Class Schedule",
+      "title": "Learning Format",
       "details": [
-        "Classes: Monday to Friday",
-        "Two sessions per day (40 mins each)",
-        "Time Window: 11:00 AM – 3:00 PM IST",
-        "LKG: 11:00 AM – 12:30 PM",
-        "UKG: 1:00 PM – 2:30 PM"
+        "Live & recorded sessions",
+        "Flexible learning schedules",
+        "Weekend & weekday batches",
+        "Workshops, seminars & webinars",
+        "Internship opportunities available"
       ]
     },
 
     "features": [
-      "Live interactive classes",
-      "Creative skill development activities",
-      "Structured Montessori-based learning",
-      "Trained and experienced teachers",
-      "Eligible for any syllabus after completion"
+      "Certificate & diploma programs in psychology",
+      "Behavioural science & emotional intelligence training",
+      "Expert-led webinars & workshops",
+      "Research and internship opportunities",
+      "Professional skill development programs",
+      "Focus on mental wellness and behavioural competence"
     ],
 
     "team": [
       {
-        "name": "Pooja Raj",
-        "role": "Director",
-        "qualification": "BA, Montessori TTC, Learning Disability, Nutrition & Dietetics",
-        "image": "/pooja.png"
-      },
-      {
-        "name": "Jesna Siyad",
-        "role": "Principal",
-        "qualification": "M.A, B.Ed, B.Sc, Montessori TTC, Abacus Training",
-        "image": "/jesna.jpeg"
+        "name": "CMBS Academic Panel",
+        "role": "Experts & Researchers",
+        "qualification": "Psychology, Behavioural Science & Education Professionals",
+        "image": "/hero.jpg"
       }
     ],
 
     "reviews": [
       {
-        "name": "Aisha Rahman",
-        "role": "Parent",
+        "name": "Arjun Nair",
+        "role": "Student",
         "rating": 5,
-        "text": "Very engaging classes. My child enjoys learning every day and has improved a lot in communication."
+        "text": "The programs are very insightful and practical. Helped me understand human behaviour deeply."
       },
       {
-        "name": "Nikhil Menon",
-        "role": "Parent",
+        "name": "Shifa Rahman",
+        "role": "Professional",
         "rating": 5,
-        "text": "Affordable and structured. Teachers are very supportive and caring."
+        "text": "Great platform for learning psychology and improving emotional intelligence."
       },
       {
-        "name": "Fathima Basheer",
-        "role": "Parent",
+        "name": "Rahul Das",
+        "role": "Student",
         "rating": 4,
-        "text": "Great online preschool option with fun activities and good learning balance."
+        "text": "Well-structured courses with good academic and practical balance."
       }
     ],
 
     "contact": {
-      "email": "support@kinderprimeinternational.com",
-      "phone": "+91 8921268063",
-      "whatsapp": "+918921268063",
-      "address": "Kerala, India",
-      "supportName": "Kinder Prime Support Team",
-      "image": "/support-light.jpg"
+      "email": "support@cmbs.org",
+      "phone": "+91 9000000000",
+      "whatsapp": "+919000000000",
+      "address": "India",
+      "supportName": "CMBS Support Team",
+      "image": "/support.jpg"
     }
   }
 }

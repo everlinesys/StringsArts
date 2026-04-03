@@ -44,9 +44,9 @@ export default function Hero() {
           {/* Image top mobile only */}
           <div className="relative md:hidden md:block group ">
 
-            {brand.logo ? (
+            {brand.hero.image ? (
               <img
-                src={brand.logo}
+                src={brand.hero.image}
                 alt={brand.siteName}
                 className={`relative z-10 ${brand.theme.shape?.radius || ""}  object-cover aspect-[4/4] w-full `}
               />
@@ -108,7 +108,7 @@ export default function Hero() {
             </a>
 
             {/* Avatars */}
-            {/* <div className="flex -space-x-3 overflow-hidden">
+            <div className="flex -space-x-3 overflow-hidden">
               {avatarLetters.map((letter, i) => (
                 <div
                   key={i}
@@ -123,9 +123,9 @@ export default function Hero() {
               ))}
 
               <div className="pl-5 pt-3 text-xs font-bold opacity-70 uppercase tracking-tighter">
-                +{brand.students} Students
+                {brand.students} Students
               </div>
-            </div> */}
+            </div>
 
           </div>
         </div>
@@ -137,7 +137,7 @@ export default function Hero() {
 
           {brand.hero?.image ? (
             <img
-              src={brand.logo}
+              src={brand.hero.image}
               alt="Learning"
               className={`relative z-10 ${brand.theme.shape?.radius || ""}  object-cover aspect-[4/4] w-full `}
             />
