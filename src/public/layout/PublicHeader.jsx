@@ -29,7 +29,7 @@ export default function PublicHeader() {
           )}
 
           {/* Small Title */}
-          {/* <span className={`text-sm font-semibold  text-white`}>
+          {/* <span className={`text-sm font-semibold `}>
             {brand.siteName}
           </span> */}
 
