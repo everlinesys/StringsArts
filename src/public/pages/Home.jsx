@@ -7,6 +7,7 @@ import Courses from "./Courses";
 import FeaturedCoursesStrip from "../components/CourseStrip";
 import Team from "../components/Team";
 import MissionVision from "../components/MissionVision";
+import AboutUs from "../components/AboutUs";
 
 
 export default function Home() {
@@ -17,7 +18,7 @@ export default function Home() {
 
       <FeaturedCoursesStrip />
       <MissionVision />
-      <Team />
+      <AboutUs />
       <Testimonials />
       <Enroll />
       <CTASection />

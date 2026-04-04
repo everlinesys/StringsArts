@@ -26,6 +26,7 @@ import CourseCurriculum from "../admin/pages/CourseCurriculum";
 import PageNotFound from "../public/pages/PageNotFound";
 import Terms from "../public/pages/Terms";
 import Privacy from "../public/pages/Privacy";
+import AboutUs from "../public/components/AboutUs";
 
 export const router = createBrowserRouter([
     {
@@ -38,6 +39,7 @@ export const router = createBrowserRouter([
             { path: "courses", element: <Courses /> },
             { path: "pricing", element: <Courses /> },
             { path: "contact", element: <Contact /> },
+            { path: "aboutus", element: <AboutUs /> },
             { path: "courses/:courseId", element: <CourseDetails /> },
             { path: "course/:courseId", element: <CourseDetails /> },
             { path: "terms", element: <Terms /> },

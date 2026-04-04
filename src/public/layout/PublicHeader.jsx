@@ -43,6 +43,8 @@ export default function PublicHeader() {
 
           <NavLink to="/contact" className="hover:opacity-80 transition">
             Contact
+          </NavLink> <NavLink to="/aboutus" className="hover:opacity-80 transition">
+            About Us
           </NavLink>
         </nav>
 

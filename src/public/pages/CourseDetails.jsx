@@ -87,11 +87,11 @@ Course: ${course.title}`;
   if (!course) return <div className="py-20 text-center">Course not found!!!.</div>;
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-gray-50 ">
 
       {/* ===== HERO ===== */}
       <div
-        className="text-white py-16 "
+        className="text-white py-16  md:px-16"
         style={{ backgroundColor: primary }}
       >
         <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
@@ -197,14 +197,16 @@ Course: ${course.title}`;
 
       </div>
 
-      <div className="items-center text-center py-20 ">
+      <div className="flex flex-col items-center justify-center text-center py-16 px-6 bg-gradient-to-br from-gray-800 to-gray-900 ">
 
+        {/* Heading */}
+       
 
         {/* ACTION BUTTONS */}
         {!user && (
           <a
             href="/login"
-            className="inline-block px-8 py-3  text-black rounded-xl font-semibold"
+            className="px-8 py-3 bg-white text-black rounded-xl font-semibold shadow-md hover:scale-105 hover:shadow-lg transition duration-300"
           >
             Login to Enroll
           </a>
@@ -213,7 +215,7 @@ Course: ${course.title}`;
         {user && owned && (
           <button
             onClick={() => (window.location = `/student/watch/${courseId}`)}
-            className="px-8 py-3 bg-green-600 text-white rounded-xl font-semibold"
+            className="px-8 py-3 bg-green-500 text-white rounded-xl font-semibold shadow-md hover:scale-105 hover:bg-green-600 transition duration-300"
           >
             Continue Learning
           </button>
@@ -222,7 +224,7 @@ Course: ${course.title}`;
         {user && !owned && (
           <button
             onClick={() => buy(courseId)}
-            className="px-8 py-3 bg-white text-black rounded-xl font-semibold"
+            className="px-8 py-3 bg-white text-black rounded-xl font-semibold shadow-md hover:scale-105 hover:bg-gray-100 transition duration-300"
           >
             Purchase Course
           </button>
