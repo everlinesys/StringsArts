@@ -102,7 +102,7 @@ Course: ${course.title}`;
               {course.title}
             </h1>
 
-            <p className="opacity-90 max-w-lg">
+            <p className="opacity-90 max-w-lg leading-relaxed whitespace-pre-line">
               {course.description}
             </p>
 
