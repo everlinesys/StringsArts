@@ -25,7 +25,7 @@ export default function AdminHeader({ onMenuClick }) {
     <header className="h-16 bg-white border-b flex items-center justify-between px-4 md:px-6 shadow-sm">
 
       {/* ⭐ LEFT SIDE */}
-      <div className="flex items-center gap-3">
+      <div className="flex items-center i gap-3">
 
         {/* MOBILE HAMBURGER */}
         <button
