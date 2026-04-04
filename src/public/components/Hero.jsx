@@ -80,7 +80,7 @@ export default function Hero() {
           {/* Title */}
           <h1
             className="text-4xl md:text-5xl font-bold leading-[1.1] tracking-tight"
-            // style={{ color: brand.colors.primary }}
+          // style={{ color: brand.colors.primary }}
           >
             {brand.hero?.title || "Welcome to eLearn"}
           </h1>
@@ -109,7 +109,7 @@ export default function Hero() {
 
             {/* Avatars */}
             <div className="flex -space-x-3 overflow-hidden">
-              {avatarLetters.map((letter, i) => (
+              {/* {avatarLetters.map((letter, i) => (
                 <div
                   key={i}
                   className="inline-flex h-8 w-8 rounded-full border border-black/20 items-center justify-center text-[11px] font-black"
@@ -119,6 +119,22 @@ export default function Hero() {
                   }}
                 >
                   {letter}
+                </div>
+              ))} */}
+
+              {[1, 2, 3, 4].map((num, i) => (
+                <div
+                  key={i}
+                  className="inline-flex h-8 w-8 rounded-full border border-black/20 items-center justify-center overflow-hidden"
+                  style={{
+                    backgroundColor: brand.colors.primary,
+                  }}
+                >
+                  <img
+                    src={`/icns/${num}.ico`}
+                    alt={`icon-${num}`}
+                    className="h-full w-full object-cover"
+                  />
                 </div>
               ))}
 
