@@ -4,8 +4,8 @@ export default function Terms() {
   const brand = useBranding();
 
   return (
-    <div className={`my-0 `} style={{marginTop:0}}>
-      <div className={`${brand.theme.layout.container} py-10 md:px-16 my-0 max-w-3xl`} style={{marginTop:0}}>
+   <div className={`${brand.theme.layout.container} my-0 px-6 md:px-16 min-w-[100vw]`} style={{ marginTop: 0 }}>
+      <div className={`${brand.theme.layout.container} py-10  my-0 max-w-3xl`} style={{marginTop:0}}>
         
         <h1 className={brand.theme.text.title} style={{paddingTop:10}}>Terms & Conditions</h1>
 
