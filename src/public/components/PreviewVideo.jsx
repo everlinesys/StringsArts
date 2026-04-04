@@ -23,7 +23,7 @@ export default function PreviewVideo() {
             videoId={videoId}
             poster={poster}
           />  */}
-          <img src={poster} alt="" />
+          <img src={poster} className="w-[100vw] md:w-[50vw]" alt="" />
         </div>
 
         {/* 📝 TEXT — KEPT */}
