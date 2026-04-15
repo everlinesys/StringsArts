@@ -11,7 +11,7 @@ export default function PublicHeader() {
 
   return (
     <header className={` shadow-sm md:px-16`} style={{ backgroundColor: "#eeecec" || brand.colors.accent , color:  "#13205f" ||brand.colors.primary  }}>
-      <div className="max-w-7xl mx-auto px-3 h-16 flex items-center justify-between">
+      <div className="max-w-7xl mx-auto pr-3 h-16 flex items-center justify-between">
 
         {/* Logo + Small Title */}
         <Link to="/" className="flex items-center gap-3">
@@ -20,7 +20,7 @@ export default function PublicHeader() {
             <img
               src={brand.logo}
               alt={brand.siteName}
-              className="h-30 w-auto object-contain"
+              className="h-15 w-auto object-contain"
             />
           ) : (
             <div className=" h-10 w-10 bg-gray-200 rounded-lg flex items-center justify-center text-sm font-bold">

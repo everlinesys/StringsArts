@@ -6,8 +6,8 @@ export default function PublicFooter() {
 
   return (
     <footer
-      className="text-gray-100"
-      style={{ backgroundColor: brand.primaryColor }}
+      className={`text-gray-100 ${brand.theme.layout.footer}`}
+     
     >
       <div className="max-w-7xl mx-auto px-6 py-12 grid md:grid-cols-4 gap-8">
 

@@ -49,10 +49,10 @@
       "container": "bg-[#0B1A2B] text-white",
       "panel": "bg-[#0F2236] border border-[#1B3552]",
       "header": "bg-[#0F2236] border-b border-[#13263C]",
-      "footer": "bg-[#0F2236] border-t border-[#13263C]"
+      "footer": "bg-[#0F2236] border-t border-[#13263C] "
     },
     "shape": {
-      "radius": "rounded-sm",
+      "radius": "rounded-2xl",
       "cardRadius": "rounded-sm",
       "buttonRadius": "rounded-sm",
       "inputRadius": "rounded-sm"

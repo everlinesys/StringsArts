@@ -3,15 +3,15 @@
     "siteName": "Strings Institute for Contemporary Arts Study and Research",
     "tagline": "Unlock Your Creative Potential – From the Comfort of Your Home! 🎨🎶",
 
-    "primaryColor": "#7c3aed",
-    "theme": "softSaaSMarketing",
+    "primaryColor": "#fb2b2b",
+    "theme": "darkBox",
 
     "logo": "/logo.png",
     "students": "1000+",
 
     "colors": {
-      "primary": "#7c3aed",
-      "accent": "#facc15"
+      "primary": "#fb2b2b",
+      "accent": "#ffffff"
     },
 
     "hero": {
@@ -20,7 +20,7 @@
       "image": "/hero.png",
 
       "bunnyVideoId": "",
-      "poster": "/hero.jpg"
+      "poster": "/hero.png"
     },
 
     "preview": {
