@@ -129,7 +129,7 @@ export default function Dashboard() {
           {data.courses.map((c) => (
             <div
               key={c.id}
-              className="group bg-white border border-slate-200 rounded-2xl overflow-hidden hover:shadow-xl transition-all duration-300 flex flex-col"
+              className="group bg-white max-w-[90vw] border border-slate-200 rounded-2xl overflow-hidden hover:shadow-xl transition-all duration-300 flex flex-col"
             >
               {/* Course Thumbnail */}
               <div className="relative aspect-video overflow-hidden">
