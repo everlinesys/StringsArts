@@ -90,7 +90,7 @@ export default function Dashboard() {
 
       {/* ===== HERO HEADER ===== */}
       <div
-        className="p-8 rounded-xl text-white shadow-xl"
+        className="p-8 rounded-xl text-white shadow-xl max-w-[90vw]"
         style={{ background: primary }}
       >
         <h2 className="text-2xl font-bold">
@@ -101,7 +101,7 @@ export default function Dashboard() {
         </p>
       </div>
       {/* Container: Horizontal scroll on mobile, Grid on desktop */}
-      <div className="flex overflow-x-auto pb-4 gap-4 no-scrollbar sm:grid sm:grid-cols-2 lg:grid-cols-3 sm:pb-0">
+      <div className="flex overflow-x-auto pb-4 gap-4 no-scrollbar sm:grid sm:grid-cols-2 lg:grid-cols-3 sm:pb-0 max-w-[90vw]">
         <OverviewCard
           label="Enrolled"
           value={data.stats.totalCourses}
@@ -407,7 +407,7 @@ function CourseCard({
   return (
     <div
       onClick={onClick}
-      className="cursor-pointer rounded-2xl overflow-hidden bg-white shadow-md hover:shadow-xl transition-all duration-300 group"
+      className="cursor-pointer rounded-2xl overflow-hidden bg-white shadow-md hover:shadow-xl transition-all duration-300 group max-w-[90vw]"
     >
       {/* IMAGE */}
       <div className="h-40 w-full overflow-hidden">
