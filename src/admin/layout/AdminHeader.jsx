@@ -37,7 +37,7 @@ export default function AdminHeader({ onMenuClick }) {
         </button>
 
         <h1 className="text-sm md:text-lg font-semibold text-gray-800" style={{ fontSize: 20 }}>
-          {brand.siteName?.toUpperCase() + " Admin" || "ELearn Admin"}
+          {brand.siteName?.split(' ')[0].toUpperCase() + " Admin" || "ELearn Admin"}
         </h1>
       </div>
 
