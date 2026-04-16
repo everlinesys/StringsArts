@@ -129,23 +129,23 @@ Course: ${course.title}`;
               </button>
             )}
 
-            {/* {user && !owned && (
+            {user && !owned && (
               <button
                 onClick={() => buy(courseId)}
                 className="px-8 py-3 bg-white text-black rounded-xl font-semibold"
               >
                 Purchase Course
               </button>
-            )} */}
+            )}
 
-            {user && !owned && (
+            {/* {user && !owned && (
               <button
                 onClick={handleWhatsAppEnroll}
                 className="px-8 py-3 bg-green-500 text-white rounded-xl font-semibold"
               >
                 Enroll via WhatsApp
               </button>
-            )}
+            )} */}
           </div>
 
           {/* RIGHT — VIDEO */}
@@ -200,7 +200,7 @@ Course: ${course.title}`;
       <div className="flex flex-col items-center justify-center text-center py-16 px-6 bg-gradient-to-br from-gray-800 to-gray-900 ">
 
         {/* Heading */}
-       
+
 
         {/* ACTION BUTTONS */}
         {!user && (
