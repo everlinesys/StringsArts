@@ -213,5 +213,48 @@
       "title": "text-xl sm:text-2xl font-bold text-[#92400E]",
       "subtitle": "text-[#78350F]"
     }
+  },
+  "classicalModernMusic": {
+    "layout": {
+      "page": "bg-[#0E0E11] text-[#EAE7E1]",
+      "container": "bg-[#0E0E11] text-[#EAE7E1]",
+      "panel": "bg-[#18181C] border border-[#2A2A2F]",
+      "header": "bg-[#18181C]/90 backdrop-blur border-b border-[#2A2A2F]",
+      "footer": "bg-[#18181C] border-t border-[#2A2A2F]"
+    },
+
+    "shape": {
+      "radius": "rounded-lg",
+      "cardRadius": "rounded-xl",
+      "buttonRadius": "rounded-md",
+      "inputRadius": "rounded-md"
+    },
+
+    "text": {
+      "title": "font-serif tracking-tight text-[#F5F2EA]",
+      "subtitle": "text-[#D6D2C4] font-medium",
+      "body": "text-[#A8A29E]",
+      "label": "text-[#78716C] text-xs uppercase tracking-wider"
+    },
+
+    "button": {
+      "primary": "bg-[#C6A75E] hover:bg-[#B8964F] text-black shadow-md",
+      "secondary": "bg-transparent border border-[#3A3A40] text-[#EAE7E1] hover:bg-[#1F1F24]",
+      "accent": "bg-[#7C3AED] hover:bg-[#6D28D9] text-white",
+      "danger": "bg-red-600 hover:bg-red-700 text-white"
+    },
+
+    "input": {
+      "base": "bg-[#121215] border border-[#3A3A40] text-[#EAE7E1] placeholder:text-[#78716C] focus:border-[#C6A75E] outline-none"
+    },
+
+    "badge": {
+      "base": "bg-[#1F1F24] border border-[#3A3A40] text-[#C6A75E]"
+    },
+
+    "card": {
+      "soft": "bg-[#18181C] border border-[#2A2A2F] shadow-sm",
+      "glass": "bg-[#18181C]/70 backdrop-blur border border-[#2A2A2F]"
+    }
   }
 }
