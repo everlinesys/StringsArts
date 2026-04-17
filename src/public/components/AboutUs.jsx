@@ -28,12 +28,6 @@ const AboutUs = () => {
             {brand.tagline}
           </p>
 
-          <button
-            style={{ background: brand.colors.primary }}
-            className="px-10 py-3 rounded-md font-semibold text-black shadow-lg hover:scale-105 transition"
-          >
-            Explore Programs
-          </button>
         </div>
       </div>
 
